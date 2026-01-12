@@ -6,13 +6,23 @@ Code generation任务上，想通过改变训练数据的学习模式，通过�
 
 ## 实验设置
 
+### 模型
+
 Qwen2.5-Coder-1.5B/7B
 
 Deepseek-Coder-6.7B
 
 Deepseek-Coder-6.7B-Instruct
 
-推理使用vllm0.11.1
+### 数据集
+
+KodCode-V1：https://huggingface.co/datasets/KodCode/KodCode-V1
+
+该数据集包含12个独立子集，覆盖多个领域（从算法知识到特定软件包知识）和难度级别（从基础编程练习到面试题及竞赛编程挑战）。KodCode 同时支持监督式微调（SFT）和强化学习调优（RL tuning）。
+
+### 推理
+
+使用vllm0.11.1
 
 ## 算力资源
 
